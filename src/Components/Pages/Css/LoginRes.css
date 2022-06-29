@@ -1,0 +1,142 @@
+
+.flex{
+    height: 100vh;
+    background-color: #28a745;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.res-form-container{
+    background-color: #28a745;
+    border-radius: 3px;
+    width: 35vw;
+    text-align: center;
+    padding: 3% 0;
+    color: #fdfdec;
+    box-shadow: 1px 2px 15px rgb(255, 255, 255);
+}
+.my-prim-bg-color{
+    background-color: #A61C1C;
+}
+.res-form-container>h1{
+    margin: 0;
+    margin-bottom: 50px;
+    padding: 0;
+}
+.form-login{
+    width: 75%;
+    margin: auto;
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: start;
+    margin-top: 3%;
+
+}
+.form-control>label{
+    margin-bottom: 2%;
+    font-weight: 700;
+}
+.form-control>input{
+    width: 100%;
+    height: 40px;
+    background-color: #fdfdec;
+    border: none;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+.form-control>input:focus{
+    outline:#28a745;
+    border: 2px solid #78c6f7;
+}
+
+.form-btn{
+    margin: auto;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.form-btn>button{
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    border: 3px solid #fdfdec;
+    border-radius: 3px;
+    font-size: inherit;
+    font-weight: 700;
+    color: #fdfdec;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+    transition: all 0.5s linear;
+}
+.form-btn>button:hover{
+    background-color: #fdfdec;
+    color: #28a745;
+}
+
+.register-tag>span{
+    color: #78c6f7;
+    border-bottom: 1px solid #78c6f7;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.err-tag{
+     background-color: #a61c1cd4;
+     color: #fdfdec;
+     padding: 5px 15px;
+     text-align: start;
+     font-weight: 600;
+     border-radius: 3px;
+     height: 40px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.success-tag{
+     background-color: #28a745;
+     color: #fdfdec;
+     padding: 0 15px;
+     text-align: start;
+     font-weight: 600;
+     border-radius: 3px;
+     height: 40px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.err-tag-res{
+    background-color: #dc3545;
+}
+
+@media (max-width:1040px) {
+    .res-form-container{
+        width: 50vw;
+    }
+}
+
+@media (max-width: 700px) {
+    .res-form-container{
+        width: 65vw;
+    }
+}
+
+@media (max-width:550px) {
+    .res-form-container{
+        width: 75vw;
+    }
+}
+@media (max-width:450px) {
+    .res-form-container{
+        width: 87vw;
+    }
+    .register-tag{
+        font-size: 14px;
+    }
+}

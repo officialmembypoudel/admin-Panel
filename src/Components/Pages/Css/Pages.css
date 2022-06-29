@@ -1,0 +1,92 @@
+.page{
+    margin-left: 15vw;
+    width: 83vw;
+    padding-top: 9vh;
+}
+
+.breadcrum{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    color: #2c0735;
+}
+
+.user-container{
+    height: 75Vh;
+    width: 75vw;
+    background-color: #fdfdec;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.627);
+    border-radius: 5px;
+    margin-top: 3%;
+    padding-top: 1%;
+
+}
+
+.user-header{
+    border-radius: inherit;
+    height: 9vh;
+    box-sizing: border-box;
+    background-color: #A61C1C;
+    padding: 0.8% 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fdfdec;
+}
+.user-header-text{
+    margin: 0;
+    padding: 0;
+}
+.add-user-btn{
+    background-color: #fdfdec;
+    border: none;
+    padding: 7px 15px;
+    font-weight: 800;
+    font-size: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #28a745;
+}
+.add-icon{
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+.user-display{
+    color: #2c0735;
+    margin-top: 1%;
+    height: 63vh;
+    overflow-y: scroll;
+    padding: 0.8% 1%;
+}
+.table{
+    width: 100%;
+}
+
+td,th{
+    text-align: start;
+    color: #2c0735;
+}
+td{
+    font-weight: 600;
+    padding: 1% 0px;
+}
+.td-name{
+    color: blue; /* change color here */
+}
+
+@media (max-width:1040px) {
+    .page{
+        width: 90%;
+        margin: 0;
+        padding: 9vh 10px;
+        box-sizing: border-box;
+    }
+    .user-container{
+        width: 95vw;
+        margin-top: 10px;
+
+    }
+}
